@@ -1,0 +1,25 @@
+.panel {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.innerpanel {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.innerpanel:first-child {
+  align-self: flex-start;
+}
+
+.tile {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

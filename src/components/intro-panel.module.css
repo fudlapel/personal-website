@@ -1,0 +1,33 @@
+.panel {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* margin-bottom: 1rem; */
+}
+
+.innerpanel {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tile {
+  width: 600px;
+  /* height: 600px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+img {
+  display: block;
+  max-width: 500px;
+  max-height: 500px;
+  margin-top: 1rem;
+  border-radius: 250px;
+}

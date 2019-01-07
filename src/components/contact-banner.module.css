@@ -1,0 +1,19 @@
+.banner {
+  background: darkgray;
+}
+
+.innerbanner {
+  /* padding: 0.5rem 0.5rem; */
+  padding-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contactlogo {
+  display: block;
+  max-width: 2.5rem;
+  max-height: 2.5rem;
+  width: auto;
+  height: auto;
+  margin: 1rem;
+}

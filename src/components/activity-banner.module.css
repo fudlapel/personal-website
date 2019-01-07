@@ -1,0 +1,26 @@
+.banner {
+  background: darkgray;
+}
+
+.innerbanner {
+  /* padding: 0.5rem 0.5rem; */
+  padding-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.activities {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: blanchedalmond;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
