@@ -13,9 +13,16 @@ const Header = () => (
       </h1>
 
       <ul className={styles.link}>
-        <li>Projects</li>
-        <li>Experience</li>
-        <li>Contact</li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          {' '}
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
         {/* later to link this to lower in page */}
       </ul>
     </div>

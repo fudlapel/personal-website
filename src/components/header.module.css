@@ -33,3 +33,8 @@
 ul {
   list-style-type: none;
 }
+
+a {
+  color: blanchedalmond;
+  text-decoration: none;
+}

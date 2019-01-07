@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from './contact-banner.module.css'
-// import LinkedInLogo from './linkedin-logo'
 const LinkedInLogo = require('../images/logos/linkedin.png')
 const EmailLogo = require('../images/logos/email.png')
 const GitHubLogo = require('../images/logos/github.png')
 
 const ContactBanner = () => (
   <div className={styles.banner}>
+    <a name="contact" />
     <div className={styles.innerbanner}>
       <a href="https://www.linkedin.com/in/sirimcclean/">
         <img

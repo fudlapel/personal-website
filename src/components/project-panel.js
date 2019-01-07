@@ -5,6 +5,7 @@ import styles from './project-panel.module.css'
 const ProjectPanel = () => (
   <div className={styles.panel}>
     <div className={styles.innerpanel}>
+      <a name="projects" />
       <h1 className={styles.header}>Projects</h1>
       <div className={styles.tile}>
         <p>
