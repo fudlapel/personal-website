@@ -5,18 +5,26 @@
 .innerbanner {
   /* padding: 0.5rem 0.5rem; */
   padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.activities {
+  /* margin-top: -0.75rem;*/
+  margin-bottom: -0.75rem;
+  color: blanchedalmond;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.activities {
-  margin-top: 0rem;
-  margin-bottom: 0rem;
-  color: blanchedalmond;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.icons {
+  width: 2.25rem;
+  margin: 1rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 ul {
