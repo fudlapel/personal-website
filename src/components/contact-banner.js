@@ -6,9 +6,8 @@ const GitHubLogo = require('../images/logos/github.png')
 
 const ContactBanner = () => (
   <div className={styles.banner}>
-    <a name="contact" />
     <div className={styles.innerbanner}>
-      <a href="https://www.linkedin.com/in/sirimcclean/">
+      <a name="contact" href="https://www.linkedin.com/in/sirimcclean/">
         <img
           src={LinkedInLogo}
           alt="linkedin logo"

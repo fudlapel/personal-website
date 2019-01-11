@@ -9,12 +9,12 @@ const IntroPanel = () => (
         <Image />
       </div>
       <div className={styles.tile}>
-        <h2>Hello I'm Siri!</h2>
+        <h2>Hello, World! My name is Siri. </h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          I am a software engineer hungry to put my coding skills to the test. I
+          am eager to work on projects that facilitate human connection and
+          harness creative thinking—ultimately to make our world a brighter
+          place.
         </p>
       </div>
     </div>

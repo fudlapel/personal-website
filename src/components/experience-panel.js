@@ -5,8 +5,9 @@ import styles from './experience-panel.module.css'
 const ExperiencePanel = () => (
   <div className={styles.panel}>
     <div className={styles.innerpanel}>
-      <a name="experience" />
-      <h1 className={styles.header}>Experience</h1>
+      <a name="experience" href="">
+        <h1 className={styles.header}>Experience</h1>
+      </a>
       <div className={styles.tile}>
         <p>
           PIC ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

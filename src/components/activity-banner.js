@@ -26,9 +26,6 @@ const ActivityBanner = () => (
           <img src={ReadingIcon} alt="reading icon" className={styles.icons} />
         </li>
       </ul>
-      {/* <p className={styles.activities}>
-        doing yoga, playing volleyball or reading!
-      </p> */}
     </div>
   </div>
 )
