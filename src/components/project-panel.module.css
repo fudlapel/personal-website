@@ -31,5 +31,6 @@
 }
 
 .projdetails {
-  max-width: 575px;
+  width: 575px;
+  /*height: 500px; */
 }

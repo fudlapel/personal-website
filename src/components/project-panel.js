@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './project-panel.module.css'
-import ProjImage from '../components/deja-vu-proj-images'
+import ProjImage from '../components/image-deja-brew'
+import ProjImageFortune from '../components/image-fortune-cookie'
+import ProjImageMafia from '../components/image-mafia'
 
 const ProjectPanel = () => (
   <div className={styles.panel}>
@@ -24,9 +26,8 @@ const ProjectPanel = () => (
             </p>
           </div>
           <div className={styles.projdetails}>
-            <ProjImage />
+            <ProjImageFortune />
             <p>
-              {/* Firebase • React Native • Redux • ExpoAR • Three.js • Stripe • FBOAuth */}
               --------------------------------------------------------------------------------------------
             </p>
           </div>
@@ -44,10 +45,10 @@ const ProjectPanel = () => (
             <p>PostgreSQL • Sequelize • Express • React • Redux • Socket.io</p>
           </div>
           <div className={styles.projdetails}>
-            <ProjImage />
-            <p>
+            <ProjImageMafia />
+            {/* <p>
               --------------------------------------------------------------------------------------------
-            </p>
+            </p> */}
           </div>
         </div>
 
@@ -61,15 +62,15 @@ const ProjectPanel = () => (
               history.
             </p>
             <p>
-              PPostgreSQL • Sequelize • Express • React • Redux • Stripe •
+              PostgreSQL • Sequelize • Express • React • Redux • Stripe •
               GoogleOAuth
             </p>
           </div>
           <div className={styles.projdetails}>
             <ProjImage />
-            <p>
+            {/* <p>
               --------------------------------------------------------------------------------------------
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
