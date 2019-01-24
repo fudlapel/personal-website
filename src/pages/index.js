@@ -19,7 +19,7 @@ const IndexPage = () => (
     {/* </Layout> */}
     <ActivityBanner />
     <ProjectPanel />
-    <ExperiencePanel />
+    {/* <ExperiencePanel /> */}
     <ContactBanner />
   </Container>
 )

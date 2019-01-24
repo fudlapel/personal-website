@@ -16,7 +16,7 @@ const ProjImageFortune = props => (
   <StaticQuery
     query={graphql`
       query {
-        home: file(relativePath: { eq: "fortune-cookie/fortune-cookies.png" }) {
+        home: file(relativePath: { eq: "fortune-cookie/fortune-mock.png" }) {
           ...projImageFortune
         }
       }
@@ -31,7 +31,7 @@ const ProjImageFortune = props => (
 )
 
 export default styled(ProjImageFortune)`
-  max-height: 280px;
+  width: 575px;
 `
 
 // export default ProjImageFortune

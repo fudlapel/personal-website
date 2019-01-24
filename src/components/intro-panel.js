@@ -11,10 +11,9 @@ const IntroPanel = () => (
       <div className={styles.tile}>
         <h2>Hello, World! My name is Siri. </h2>
         <p>
-          I am a software engineer hungry to put my coding skills to the test. I
-          am eager to work on projects that facilitate human connection and
-          harness creative thinking—ultimately to make our world a brighter
-          place.
+          I am a software engineer ready to code and collaborate. I am eager to
+          work on projects that facilitate human connection + harness creative
+          thinking—and ultimately make our world a brighter place.
         </p>
       </div>
     </div>
