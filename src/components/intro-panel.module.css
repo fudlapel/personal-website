@@ -6,7 +6,7 @@
 }
 
 .innerpanel {
-  width: 1200px;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
