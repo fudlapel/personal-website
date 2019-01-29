@@ -16,3 +16,14 @@
   height: auto;
   margin: 1rem;
 }
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .contactlogo {
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+  }
+
+  .innerbanner {
+    padding-top: 0rem;
+  }
+}
