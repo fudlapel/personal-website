@@ -34,6 +34,6 @@ const ProjImage = props => (
 )
 
 export default styled(ProjImage)`
-  height: 280px;
-  width: 575px;
+  max-height: 280px;
+  max-width: 575px;
 `

@@ -31,6 +31,6 @@ const ProjImageFortuneMock = props => (
 )
 
 export default styled(ProjImageFortuneMock)`
-  height: 350px;
-  width: 575px;
+  max-height: 350px;
+  max-width: 575px;
 `

@@ -31,6 +31,6 @@ const ProjImageMafia = props => (
 )
 
 export default styled(ProjImageMafia)`
-  height: 280px;
-  width: 575px;
+  max-height: 280px;
+  max-width: 575px;
 `
