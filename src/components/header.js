@@ -9,7 +9,6 @@ const Header = () => (
         <Link to="/" className={styles.link}>
           Siri McClean
         </Link>
-        {/* later to link this to top of page */}
       </h1>
 
       <ul className={styles.link}>
@@ -23,7 +22,6 @@ const Header = () => (
         <li>
           <a href="#contact">Contact</a>
         </li>
-        {/* later to link this to lower in page */}
       </ul>
     </div>
   </div>

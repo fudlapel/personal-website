@@ -3,23 +3,40 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100vw;
 }
 
 .innerpanel {
-  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .tile {
-  width: 550px;
+  width: 485px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .tile {
+    width: 425px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .innerpanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .tile {
+    width: 300px;
+  }
 }

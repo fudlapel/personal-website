@@ -4,17 +4,17 @@
   justify-content: center;
   margin-bottom: 1rem;
   flex-direction: row;
+  max-width: 100vw;
 }
 
 .innerpanel {
-  width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .container {
-  max-width: 1200px;
+  width: 75vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -22,16 +22,15 @@
 }
 
 .tile {
-  max-width: 1200px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 1.5rem;
   margin-bottom: 2rem;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .projdetails {
-  max-width: 575px;
-  flex-wrap: wrap;
+  max-width: 50vw;
+  /* flex-wrap: wrap; */
 }
