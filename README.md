@@ -2,11 +2,11 @@
   <!-- <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a> -->
-  <img src="src/images/sm-icon.png"/>
+  <img alt="SM-icon" src="src/images/sm-icon.png" width="60"/>
 </p>
-<h1 align="center">
-  Siri McClean Personal Website!
-</h1>
+<h3 align="center">
+  Siri McClean&#39s Personal Website!
+</h3>
 
 Created with gatsby.js  & deployed with Netlify
 
